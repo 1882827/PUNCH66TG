@@ -71,7 +71,7 @@ spawn(function()
     setFontRecursive(window.gui, Enum.Font.SourceSansBold)
 end)
 
-local Killing = window:AddTab("Killer")
+local tabKilling = window:AddTab("Killer")
 
 tabKilling:AddButton("Remove Attack Animations", function()
     local blockedAnimations = {
