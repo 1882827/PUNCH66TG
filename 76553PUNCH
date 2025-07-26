@@ -73,7 +73,7 @@ end)
 
 local Killing = window:AddTab("Killer")
 
-local button = tabKilling:AddButton("Remove Attack Animations", function()
+tabKilling:AddButton("Remove Attack Animations", function()
     local blockedAnimations = {
         ["rbxassetid://3638729053"] = true,
         ["rbxassetid://3638767427"] = true,
