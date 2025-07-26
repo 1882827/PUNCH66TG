@@ -54,7 +54,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MlFrv
 
 local window = library:AddWindow("1987 Private", {
     main_color = Color3.fromRGB(9, 12, 217),
-    min_size = Vector2.new(740, 500),
+    min_size = Vector2.new(550, 450),
     can_resize = false,
 })
 
